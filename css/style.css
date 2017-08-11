@@ -1,0 +1,297 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft Yahei";
+    box-sizing: border-box
+}
+
+img {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width:100%;
+}
+
+ul, li {
+    list-style: none
+}
+
+input {
+    background: 0;
+    border: 0;
+    outline: 0
+}
+
+button {
+    background: 0;
+    border: 0;
+    outline: 0
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    font-family: 'Heiti SC', 'Microsoft YaHei';
+    font-size: 100px;
+    outline: 0;
+    -webkit-text-size-adjust: none;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    -webkit-user-select: none;
+    position: relative;
+}
+.logo {
+    width: 24.6%;
+    height: auto;
+    position: absolute;
+    top:0;
+    left:0;
+    margin-left: 5.9%;
+}
+
+.swiper-container{
+    width: 100%;
+    height: 100%;
+}
+.content_01, .content_02, .content_03 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.font_01 {
+    width: 84.4%;
+    height: auto;
+    position: absolute;
+    top:12%;
+    left:7.8%;
+    margin: 0 auto;
+}
+.font_02{
+    width: 84.4%;
+    height: auto;
+    position: absolute;
+    top:18%;
+    left:7.8%;
+    z-index:200;
+    margin: 0 auto;
+}
+
+.font_01 img {
+    width: 100%;
+    height: auto;
+}
+
+.font_pic_01 {
+    position: absolute;
+    bottom:0rem;
+    left:7.8%;
+    width: 84.4%;
+    height: auto;
+    margin: 0 auto;
+}
+.font_pic_01 img {
+    width: 100%;
+    height: auto;
+}
+
+.content_02 .back_bottom{
+     background-color: #340315;
+ }
+.content_03 .back_bottom{
+    background: url(../images/background_03.jpg) no-repeat;
+    background-size:cover;
+}
+.back_bottom .bottom_car_01{
+    position: absolute;
+    top:30%;
+    width: 100%;
+}
+.back_bottom .car_01 {
+    width: 89.5%;
+    margin-left:100%;
+    height: auto;
+
+}
+.back_bottom .car_02 {
+    width: 89.5%;
+    margin: 0 auto;
+    height: auto;
+    margin-top:-2.1rem;
+}
+
+.back_bottom img.bg_1{
+    height:65%;
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+}
+.back_bottom img.bg_2{
+    height:35%;
+    position: absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+}
+.back_bottom .yinying {
+    width: 85.9%;
+
+    margin:0 auto;
+    margin-top:-4px;
+    opacity: 0;
+}
+
+.back_bottom .up {
+    width: 15.6%;
+    position: absolute;
+    top: 30%;
+    margin: 0 auto;
+    height: auto;
+    left: 3.4rem;
+    opacity: 0;
+}
+
+.check{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    opacity: 0;
+}
+.back_bottom{
+    position: absolute;
+    width:100%;
+    height:100%;
+    bottom:0;
+    left:0;
+}
+.content_01{
+    background-color: #26c1c6;
+}
+ .check{
+    height:55%;
+}
+ .back_bottom{
+    height:45%;
+}
+.content_02 {
+    background-color: #f58488;
+}
+.logo {
+    width: 24.6%;
+    height: auto;
+    margin-left: 5.9%;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+    padding-top: 0.2rem;
+}
+
+
+
+
+
+
+
+.content_03 {
+    background-color: #fff7c8;
+}
+
+.content_03 .check {
+    background-color: rgb(255, 247, 200);
+}
+
+.content_03 .floating {
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: relative;
+    text-align: center;
+    z-index: 300;
+    display: none;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.content_03 .more {
+    width: 78.9%;
+}
+
+
+.logo {
+    width: 24.6%;
+    height: auto;
+    margin-left: 5.9%;
+}
+
+
+.logo img {
+    width: 100%;
+    height: auto;
+    padding-top: 0.2rem;
+}
+
+.font_03 {
+    width: 84.4%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.font_03 img {
+    width: 100%;
+    height: auto;
+    padding-top: 0.54rem;
+}
+
+.font_pic_03 {
+    width: 84.4%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.font_pic_03 img {
+    width: 100%;
+    padding-top: 0.63rem;
+    height: auto;
+    padding-bottom: 0.9rem;
+}
+
+
+
+.back_bottom .car_03 {
+    width: 89.5%;
+    position: absolute;
+    bottom: 0.4rem;
+    margin: 0 auto;
+    height: auto;
+    left: 0.34rem;
+}
+
+
+.back_bottom .finger {
+    width: 12.7%;
+    position: absolute;
+    bottom: 1rem;
+    margin: 0 auto;
+    height: auto;
+    left: 43.65%;
+    opacity: 0;
+}
